@@ -1,0 +1,103 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+} 
+
+.hero {
+    background-image: url("https://cdn.britannica.com/85/151285-050-A3CD6461/Porsuk-River-Eskisehir-Turkey.jpg");
+    background-size: cover;
+    color: #F1FAEE;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1, .hero h2 {
+    margin: 5px;
+    border-radius: 5px;
+    padding: 4px 6px;
+}
+
+.hero h1 {
+    width: 140px;
+    background-color: #457B9D;
+    font-size: 18px;
+}
+
+.hero h2 {
+    width: 230px;
+    background-color: #1D3557;
+    font-size: 12px;
+}
+
+.activities {
+    padding-top: 20px;
+    background-color: #F1FAEE;
+}
+
+.activities h3 {
+    margin: 0 0 20px 0;
+}
+
+.activity {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.activity-list {
+    display: flex;
+}
+
+.activity-img {
+    border-radius: 50%;
+}
+
+.guide {
+    margin: 40px auto;
+    padding: 16px 10px;
+    background-color: #A8DADC;
+    border-radius: 5px;
+    box-shadow: 0 5px #1D3557;
+    display: flex;
+    width: 290px;
+    justify-content: center;
+}
+
+.guide-info {
+    width: 130px;
+    padding: 0 10px;
+}
+
+.guide img {
+    width: 130px;
+    border-radius: 5px;
+}
+
+.guide h3 {
+    font-size: 16px;
+}
+
+.guide p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.guide h4 {
+    font-size: 12px;
+}
